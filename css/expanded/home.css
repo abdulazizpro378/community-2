@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:where(:not(html, iframe, canvas, svg, video, audio):not(svg *, symbol *)) {
+  display: revert;
+}
