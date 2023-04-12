@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./css/home.min.css" />
+    <link rel="stylesheet" href="./css/products.min.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -42,7 +42,7 @@
                 <div class="nav-input">
                   <form>
                     <input
-                      class="search"
+                      class="form-control search"
                       placeholder="Найти товар"
                       type="text"
                     />
@@ -329,63 +329,12 @@
       </div>
     </section>
     <main>
-      <section class="s1">
-        <div class="container">
-          <img src="images/home/bgi.png" alt="" />
-          <p>Доставка бесплатно от 1000 ₽</p>
-        </div>
-      </section>
-      <section class="s2">
-        <div class="container">
-          <div class="text d-flex justify-content-between align-items-center">
-            <h1>Акции</h1>
-            <p><a href="products.html">Все продукты ></a></p>
-          </div>
-          <div class="s2-row"></div>
-        </div>
-      </section>
-      <section class="s3">
-        <div class="container">
-          <div class="text d-flex justify-content-between align-items-center">
-            <h1>Новинки</h1>
-            <p><a href="products.html">Все продукты ></a></p>
-          </div>
-          <div class="s3-row"></div>
-        </div>
-      </section>
-      <section class="s4">
-        <div class="container">
-          <div class="text d-flex justify-content-between align-items-center">
-            <h1>Покупали раньше</h1>
-            <p><a href="products.html">Все продукты ></a></p>
-          </div>
-          <div class="s4-row"></div>
-        </div>
-      </section>
-      <section class="s5">
-        <div class="container">
-          <div class="text d-flex justify-content-between align-items-center">
-            <h1>Специальные предложения</h1>
-          </div>
-          <div class="s5-row"></div>
-        </div>
-      </section>
-      <section class="s6">
-        <div class="container">
-          <h1>Наши магазины</h1>
-          <div class="map-row"></div>
-          <div class="iframe-map"></div>
-        </div>
-      </section>
-      <section class="s7">
-        <div class="container">
-          <div class="text d-flex justify-content-between align-items-center">
-            <h1>Статьи</h1>
-            <p><a href="products.html">Все статьи ></a></p>
-          </div>
-          <div class="s7-row"></div>
-        </div>
-      </section>
+      <div class="container">
+        <h1>Все продукты</h1>
+        <div class="alert alert-info products-count" role="alert"></div>
+        <div class="row products-row"></div>
+        <nav class="products-pgntn" aria-label="Page navigation example"></nav>
+      </div>
     </main>
     <footer>
       <div class="footer">
@@ -478,6 +427,6 @@
     <script src="bootstrap/bootstrap.js"></script>
     <script src="js/main.js"></script>
     <script src="js/products.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/search.js"></script>
   </body>
 </html>
